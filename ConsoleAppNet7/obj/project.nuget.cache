@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EkJvNclLmHqewqlxQD+Goez+st5M91n0rrK9AzqXG5PeowGCEWjORCkbcDur3p81te9IW+DbhKoA8yERl+rIWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vsdiagtester\\source\\repos\\ConsoleAppNet7\\ConsoleAppNet7\\ConsoleAppNet7.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vsdiagtester\\.nuget\\packages\\sourcelink.create.commandline\\2.8.3\\sourcelink.create.commandline.2.8.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "SourceLink.Create.CommandLine/2.8.3": {
+        "type": "package",
+        "build": {
+          "build/SourceLink.Create.CommandLine.props": {},
+          "build/SourceLink.Create.CommandLine.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/SourceLink.Create.CommandLine.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SourceLink.Create.CommandLine/2.8.3": {
+      "sha512": "IG9yWuEwkGDC94Be8U7XC/YwzGPGUhH7cF2/AzN3DeyJwo9Epp0kiwT8UGNg1lNkH1mXyjOTS7oN0DZSqMmoBQ==",
+      "type": "package",
+      "path": "sourcelink.create.commandline/2.8.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/SourceLink.Create.CommandLine.props",
+        "build/SourceLink.Create.CommandLine.targets",
+        "build/net461/SourceLink.Create.CommandLine.dll",
+        "build/netstandard1.4/SourceLink.Create.CommandLine.deps.json",
+        "build/netstandard1.4/SourceLink.Create.CommandLine.dll",
+        "buildCrossTargeting/SourceLink.Create.CommandLine.props",
+        "sourcelink.create.commandline.2.8.3.nupkg.sha512",
+        "sourcelink.create.commandline.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "SourceLink.Create.CommandLine >= 2.8.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vsdiagtester\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vsdiagtester\\source\\repos\\ConsoleAppNet7\\ConsoleAppNet7\\ConsoleAppNet7.csproj",
+      "projectName": "ConsoleAppNet7",
+      "projectPath": "C:\\Users\\vsdiagtester\\source\\repos\\ConsoleAppNet7\\ConsoleAppNet7\\ConsoleAppNet7.csproj",
+      "packagesPath": "C:\\Users\\vsdiagtester\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vsdiagtester\\source\\repos\\ConsoleAppNet7\\ConsoleAppNet7\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vsdiagtester\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "SourceLink.Create.CommandLine": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.8.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.300-preview.23179.2\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
