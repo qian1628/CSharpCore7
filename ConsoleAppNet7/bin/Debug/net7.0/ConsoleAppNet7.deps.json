@@ -7,10 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "ConsoleAppNet7/1.0.0": {
+        "dependencies": {
+          "SourceLink.Create.CommandLine": "2.8.3"
+        },
         "runtime": {
           "ConsoleAppNet7.dll": {}
         }
-      }
+      },
+      "SourceLink.Create.CommandLine/2.8.3": {}
     }
   },
   "libraries": {
@@ -18,6 +22,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "SourceLink.Create.CommandLine/2.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IG9yWuEwkGDC94Be8U7XC/YwzGPGUhH7cF2/AzN3DeyJwo9Epp0kiwT8UGNg1lNkH1mXyjOTS7oN0DZSqMmoBQ==",
+      "path": "sourcelink.create.commandline/2.8.3",
+      "hashPath": "sourcelink.create.commandline.2.8.3.nupkg.sha512"
     }
   }
 }
